@@ -1,6 +1,6 @@
 # main text of home
 name: Shresth Agrawal
-bio: I LOVE what I do and I do what I LOVE
+bio: 'I LOVE what I do and I do what I LOVE'
 
 # twitter summary info
 description: A blog about how I convert my crazy ideas into awesome projects.
@@ -29,13 +29,13 @@ permalink: /:title/
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+#disqus:
+#  shortname: mydisqus # enter this from your disqus account
+#  categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: shresthsmartboy
-twitter: shresth3103
+#facebook: shresthsmartboy
+#twitter: shresth3103
 # google: mygoogle
 instagram: shresth.31
 # pinterest: mypinterest
