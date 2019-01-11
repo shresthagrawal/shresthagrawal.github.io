@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Shresth Agrawal
+bio: I <b>LOVE<\b> what I do and I do what I <b>LOVE<\b>!!
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about how I convert my crazy ideas into awesome projects.
 
 # if it's an external image, update below for true
 # better with square images
@@ -42,16 +42,16 @@ twitter: mytwitter
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
-# gitlab: mygitlab
+github: shresthagrawal
+# gitlab: myGitLab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+#medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: shresthagrawal.31@gmail.com
 
 authors:
     johndoe:
@@ -96,7 +96,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: true
+#show-author: true
 
 # do you want some animations?
 animation: true
