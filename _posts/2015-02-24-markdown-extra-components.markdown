@@ -8,7 +8,7 @@ tag:
 - markdown
 - components
 - extra
-category: blog
+category: #blog Changed it hide it (intentionally hiden just to use it as a reference)
 author: jamesfoster
 description: Markdown summary with different options
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'

@@ -5,10 +5,10 @@ date: 2016-01-23 22:10
 tag: jekyll
 image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: true
-projects: true
+projects: # true uncomment it unhide it (intentionally hiden just to use it as a reference)
 hidden: true # don't count this post in blog pagination
 description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
-category: project
+category: # Project uncomment it uhide it (intentionally hiden just to use it as a reference)
 author: johndoe
 externalLink: false
 ---

@@ -8,7 +8,7 @@ tag:
 - markdown
 - elements
 star: true
-category: blog
+category: #blog Changed it unhide it (intentionally hiden just to use it as a reference)
 author: johndoe
 description: Markdown summary with different options
 ---
