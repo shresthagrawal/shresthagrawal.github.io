@@ -1,5 +1,5 @@
 ---
-title: ":A Real Time Predictive Modeling for Mitigation of Contagious Disease"
+title: "A Real Time Predictive Modeling for Mitigation of Contagious Disease"
 layout: post
 date: 2016-06-24 22:10
 tag: 
