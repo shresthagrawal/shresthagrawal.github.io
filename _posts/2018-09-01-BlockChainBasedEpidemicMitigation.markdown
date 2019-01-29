@@ -17,9 +17,6 @@ author: Shresth
 externalLink: false
 ---
 
-Quantification and Mitigation of Epidemic using Deep-Learning on Distributed Peer to Peer Network
-=================================================================================================
-
 ***this project is not Implemented yet its just one of my vague ideas that I wish to work on!!***
 
 Contagious Diseases are the deadliest killers, and there exists no pre-eminent approaches to predict,
