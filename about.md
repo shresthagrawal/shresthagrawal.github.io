@@ -6,6 +6,7 @@ layout: page
 
 <p><center><B>I Do What I LOVE and I love What I Do!! </B></center></p>
 
+[<center><b>Link To My Resume</b></center>]({{ site.resume-url }}) 
 <p>
 <ul>
     <li>5 words that define me: Programmer-Hacker-Maker-Researcher-Foody</li>
