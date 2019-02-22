@@ -1,7 +1,7 @@
 ---
-title: "I cant believe on what I see"
+title: "I am bound to not believe on what I see"
 layout: post
-date: 2018-02-01 10:10
+date: 2019-02-01 10:10
 tag:
 - mixedreality
 - hackathon
@@ -10,11 +10,12 @@ tag:
 - project
 - knauf
 image:
-headerImage: true
+headerImage: false
 projects: false
 hidden: false
 description: "My first expeience with mixedreality(@hololens)"
-category: Project
+category: blog
+myHobbies: false
 author: Shresth
 externalLink: false
 ---
