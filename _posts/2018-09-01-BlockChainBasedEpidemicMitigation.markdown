@@ -2,22 +2,22 @@
 title: "Quantification and Mitigation of Epidemic using Deep-Learning on Distributed Peer to Peer Network"
 layout: post
 date: 2018-09-01 10:10
-tag: 
+tag:
 - epidemic
 - machinlearning
 - blockchain
 - research
-image: 
+image:
 headerImage: false
 projects: true
-hidden: true 
+hidden: true
 description: "Quantification and Mitigation of Epidemic using Deep-Learning on Distributed Peer to Peer Network"
 category: Project
 author: Shresth
 externalLink: false
 ---
 
-***this project is not Implemented yet its just one of my vague ideas that I wish to work on!!***
+***this project is not Implemented yet its just one of my cool ideas that I wish to work on!!***
 
 Contagious Diseases are the deadliest killers, and there exists no pre-eminent approaches to predict,
 quantify and mitigate them. Existing mathematical models miserably fail on the real world due to their rigidity
