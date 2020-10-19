@@ -1,15 +1,15 @@
-<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
+<nav class=" {% if page.title == 'Home' %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
         {% if page.title != "Home" %}
             <li class="item">
-                <a class="link" href="{{ site.url }}/">home</a>
+                <a class="link" href="{{ site.url }}/">Home</a>
             </li>
         {% endif %}
 
         {% if site.blog == true %}
             {% if page.title != "Blog/coolStuff" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">blog</a>
+                    <a class="link" href="{{ site.url }}/blog">Blog</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -17,7 +17,7 @@
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">projects</a>
+                    <a class="link" href="{{ site.url }}/projects">Projects</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -25,7 +25,7 @@
         {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/about">aboutMe</a>
+                    <a class="link" href="{{ site.url }}/about">About Me</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -34,7 +34,7 @@
         {% if site.myHobbies == true %}
             {% if page.title != "myHobbies" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/myHobbies">myHobbies</a>
+                    <a class="link" href="{{ site.url }}/myHobbies">My Hobbies</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -43,6 +43,6 @@
             <li class="item">
                 <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
             </li>-->
-        {% endif %}
+        <!--{% endif %}-->
     </ul>
 </nav>
