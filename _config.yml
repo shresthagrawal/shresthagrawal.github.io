@@ -1,6 +1,6 @@
 # main text of home
 name: Shresth Agrawal
-bio: 'Get me a cheese burst farmhouse pizza if you want something from me :)))'
+bio: 'Get me a cheeseburst pizza if you want something from me :))'
 
 # twitter summary info
 description: A blog about how I convert my crazy ideas into awesome projects.
@@ -8,13 +8,13 @@ description: A blog about how I convert my crazy ideas into awesome projects.
 # if it's an external image, update below for true
 # better with square images
 external-image: true
-picture: /assets/images/profile.jpg
+picture: /assets/images/new_profile.jpeg
 aboutMePicture: /assets/images/aboutMe.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
-resume-external: true
+resume-external: true 
 resume-url: https://drive.google.com/file/d/1Krn_Brk1S2-N4dACROYv8t8wV2qLAW0v/view?usp=sharing
 
 url: http://salabs.me
@@ -59,7 +59,7 @@ authors:
         name: shresthagrawal
         bio: Life is what u make of it
         external-image: true
-        picture: /assets/images/profile.jpg
+        picture: /assets/images/new_profile.jpeg
         twitter: shresth3103
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -73,12 +73,18 @@ width: normal
 # if you don't need projects, comment the *projects* configs below
 projects: true
 
+# Set true to all the projects you need to add
+ununu: true
+givo: true
+dorg: true
+
+
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
 
 # My personally created page Hobbies
-myHobbies: true
+myHobbies: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -115,3 +121,6 @@ compress_html:
         - stage
 
 exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+
+
+
