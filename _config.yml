@@ -41,7 +41,7 @@ permalink: /:title/
 instagram: shresth.31
 # pinterest: mypinterest
 linkedin: shresthagrawal
-youtube: channel/UCd2SPMy3QrnKa1nwx8PJgvQ
+# youtube: channel/UCd2SPMy3QrnKa1nwx8PJgvQ
 # spotify: myspotify
 github: shresthagrawal
 # gitlab: myGitLab
@@ -49,7 +49,7 @@ github: shresthagrawal
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-#medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: shresthagrawal.31@gmail.com
@@ -74,8 +74,12 @@ width: normal
 projects: true
 
 # Set true to all the projects you need to add
-ununu: true
-givo: true
+# ununu: true
+# givo: true
+
+paraswap: true 
+fusespace: true
+socialtec: true
 dorg: true
 
 
