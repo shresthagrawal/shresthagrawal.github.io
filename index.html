@@ -1,18 +1,120 @@
----
-layout: page
-title: Home
----
-<!--
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.important %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    <h3 class="title">{{ post.title }}</h3>
-                </a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The personal website of Shresth Agrawal"
+    />
+
+    <title>Shresth Agrawal</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="preamble">
+
+      <h1 class="title">Shresth Agrawal</h1>
+
+      <h1 class="subtitle">
+        contact me on
+        <a href="https://twitter.com/shresth3103">twitter</a>,
+        <a href="https://github.com/shresthagrawal">github</a> or
+        <a href="mailto:shresthagrawal.31@gmail.com">email</a>
+      </h1>
+
+    </div>
+
+    <div id = "intro">
+        <p><b>
+            I'm a blockchain developer, researcher and entrepreneur.
+        </p></b>
+
+        <ul>
+        <li>
+            I am currently building <a href="https://twitter.com/shresth3103/status/1580735567075377152">Kevlar</a>,
+            a highly efficient light client for Ethereum. I am also a blockchain consultant at <a href="https://commonprefix.com">Common Prefix</a> and a masters student at Technical University of Munich. 
+        </li>
+
+        <li>
+           My research interests are in algorithm design, cryptography, blockchains, consensus protocols, zero knowledge proofs and decentralised finance.    
+        </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div id = "bio">
+        <div id = "research">
+            <h2>Research</h2>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://arxiv.org/abs/2209.08673"
+                           ><i>Proofs of Proof-of-Stake with Sublinear Complexity</i></a
+                       ><br>
+                       September 2022<br>
+                       Shresth Agrawal*, Joachim Neu*, Ertem Nusret Tas*, Dionysis Zindros*<br>
+                       <a href="https://eprint.iacr.org/2022/1642"
+                           >[eprint:2022/1642]</a>
+                       <a href="https://arxiv.org/abs/2209.08673"
+                           >[arXiv:2209.08673]</a>
+                       <a href="https://github.com/shresthagrawal/eth-pos-superlight-client">[implementation & benchmarks]</a>
+                    </li>
+                </ul>
             </div>
-        {% endif %}
-    {% endfor %}
-</section>
--->
+        </div>
+
+        <div id = "open-source">
+            <h2>Open Source Projects</h2>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://github.com/lightclients/kevlar"
+                           ><code>Kevlar</code></a> and <a href="https://github.com/lightclients/patronum"
+                           ><code>Patronum</code></a>
+                       : Kevlar is the first usable light client for Ethereum. Kevlar uses optimistic sync to efficiently sync and starts a local verified RPC server. Kevlar uses Patronum to expose verified RPC server using trusted blockhash. <a href="https://twitter.com/shresth3103/status/1580735567075377152">[twitter thead]</a>     
+                       <a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/shresthagrawal/learnp2p"
+                           ><code>LearnP2P</code></a
+                       >: An interative tutorial to build a chat application using Libp2pJs. 
+                    </li>
+                    <li>
+                        <a href="https://github.com/paraswap/paraswap-dex-lib"
+                           ><code>ParaSwap DexLib</code></a
+                       >: A standard library to interact with over hundred decentralised exchanges using a single interface. 
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id = "talks">
+            <h2>Talks</h2>
+            <ul>
+                <li><i><a href="https://www.youtube.com/watch?v=Wg9hmbKVkf8">A walkthrough of different generation DEXs and AMMs</a></i> at EthCC Paris 2021.</li>
+                <li><i><a href="https://www.youtube.com/watch?v=DuITX8fPK84">Building Cross Chain Arbitrage Bot</a></i> at Eth Global 2021.</a></li> 
+                <li><i><a href="https://apricot-booklet-7e4.notion.site/Getting-up-to-speed-with-solidity-smart-contract-development-using-state-of-the-art-tools-4e853fc05faf4ebdac564a8751cec690">Hands-on workshop on production-grade smart contract development</a></i> at Stanford University.</li>
+            </ul>
+        </div>
+
+        <div id = "previously">
+            <h2>Previously</h2>
+            <ul>
+               <a href="https://paraswap.io"> ParaSwap</a>, <a href="https://www.dorg.tech/">dOrg</a>, <a href="https://fuse.space/"> Fuse.Space</a>, <a href="https://givo.nl/">GIVO</a>. 
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="footer">
+        <p class = "footer"><i>This website was modified from
+            <a href="https://github.com/gakonst/gakonst.github.io"/>gakonst's personal website</a>
+            </i></p>
+      <br />
+  </body>
+</html>
